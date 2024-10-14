@@ -1,0 +1,335 @@
+body {
+    background-image: url("fondositeflexbda2020.jpg");
+    /*background-repeat: no-repeat, repeat;*/
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.tree {
+    margin: 6px;
+    margin-left: -35px;
+}
+
+.tree li {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px 5px 0 5px;
+    position: relative
+}
+
+.tree li::before,
+.tree li::after {
+    content: '';
+    left: -20px;
+    position: absolute;
+    right: auto
+}
+
+.tree li::before {
+    border-left: 1px solid #000;
+    bottom: 50px;
+    height: 100%;
+    top: 0;
+    width: 1px
+}
+
+.tree li::after {
+    border-top: 1px solid #000;
+    height: 20px;
+    top: 25px;
+    width: 25px
+}
+
+.tree li span {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    display: inline-block;
+    padding: 1px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tree>ul>li::before,
+.tree>ul>li::after {
+    border: 0
+}
+
+.tree li:last-child::before {
+    height: 27px
+}
+
+textarea.form-controlm {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    height: 238px;
+    font-size: 13px;
+}
+
+.btn-smm {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.colorrojofont {
+    color: #B6131F;
+    font-weight: bolder;
+}
+
+.colorazultitulo {
+    color: #B6131F;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+hr.borderojo {
+    border: 1px solid #B6131F;
+}
+
+.fondogris {
+    background-color: #F3F3F3;
+}
+
+.small-box {
+    border-radius: .25rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    /* font-size: 1rem;*/
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: 0rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #095488;
+    border-color: #095488;
+    box-shadow: none;
+}
+
+.btn-outline-primary {
+    color: #095488;
+    border-color: #095488;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #095488;
+    border-color: #095488;
+}
+
+.btn-outline-info {
+    color: #000000;
+    border-color: #095488;
+}
+
+.btn-outline-info:hover {
+    color: #000000;
+    border-color: #095488;
+    background-color: #D1E9FA;
+}
+
+.btn-outline-danger {
+    color: #000000;
+    border-color: #095488;
+}
+
+.btn-outline-danger:hover {
+    color: #ffffff;
+    border-color: #095488;
+    background-color: red;
+}
+
+.btn-info:hover {
+    color: #000000;
+    border-color: #095488;
+}
+
+.small-box {
+    border-radius: 0rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bg-azulhoneywell,
+.bg-azulhoneywell>a {
+    color: #ffffff;
+    background-color: #095488;
+}
+
+.bg-rojopopahoneywell,
+.bg-rojopopahoneywell>a {
+    color: #ffffff;
+    background-color: #B5131F;
+}
+
+.btn-danger {
+    color: #ffffff;
+    background-color: #B5131F;
+}
+
+.table-danger,
+.table-danger>td,
+.table-danger>th {
+    background-color: #B5131F;
+    color: #ffffff;
+}
+
+.btn-info {
+    color: #000000;
+    background-color: #D1E9FA;
+}
+
+.btn-info:hover {
+    color: #000000;
+    background-color: #D1E9FA;
+    border-color: #D1E9FA;
+}
+
+.colorazulhoneywell {
+    color: #095488;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #095488;
+}
+
+.card-header {
+    background-color: #095488;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: .75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #ffffff;
+}
+
+.card-title {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+    color: #ffffff;
+}
+
+.fondolightgray {
+    color: #000000;
+    background-color: #9C9C9C;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #303030;
+}
+
+.content-wrapper {
+    background: #F3F3F3;
+}
+
+.btn-xs {
+    padding: .125rem .25rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    border-radius: .15rem;
+}
+
+.swal2-title {
+    position: relative;
+    max-width: 100%;
+    margin: 0 0 .4em;
+    padding: 0;
+    color: #095488;
+    ;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+    word-wrap: break-word;
+}
+
+.swal2-styled.swal2-confirm {
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #B5131F;
+    color: #fff;
+    font-size: 1.0625em;
+}
